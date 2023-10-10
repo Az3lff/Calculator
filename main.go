@@ -102,7 +102,7 @@ func calculateArabic(firstNum, secondNum int, sign string) (result int) {
 
 func arabicToRoman(num int) (string, error) {
 	if num < 1 {
-		return "", errors.New("исключение: римские цифры не могу быть отрицательными")
+		return "", errors.New("исключение: римские цифры не могут быть отрицательными")
 	}
 
 	romanNumbersMap := map[int]string{
